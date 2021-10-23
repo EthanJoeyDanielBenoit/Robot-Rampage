@@ -11,6 +11,8 @@ public class GunEquipper : MonoBehaviour
     public GameObject assaultRifle;
     public GameObject shotgun;
     public GameObject activeGun;
+    [SerializeField]
+    Ammo ammo;
 
     void Start()
     {
